@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "MrBearCr",
+    "email": "rafael3gn@gmail.com"
+  },
+  "records": {
+    "MX": [
+      { "priority": 10, "target": "mx1.forwardemail.net" },
+      { "priority": 20, "target": "mx2.forwardemail.net" }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.forwardemail.net -all",
+      "forward-email=kevlesoft@gmail.com"
+    ]
+  }
+}
